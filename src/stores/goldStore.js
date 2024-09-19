@@ -26,5 +26,6 @@ export const useGoldStore = defineStore('goldStore', {
     resetGold() {
       this.gold = 0
     }
-  }
+  },
+  persist: true
 })
